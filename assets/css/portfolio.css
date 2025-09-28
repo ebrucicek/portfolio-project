@@ -9,14 +9,18 @@ body {
   width: 1440px;
 }
 
-.button-variant {
+header {
   display: flex;
   justify-content: flex-end;
 }
 
+.container{
+  width: 1110px;
+  margin-inline: auto;
+}
+
 .hero-section {
   padding-block: 120px;
-  padding-left: 155px;
   width: 874px;
 }
 
@@ -24,14 +28,12 @@ body {
   margin-bottom: 12px;
   font-size: 30px;
   font-weight: 400;
-  color: #212121;
 }
 
 .hero-section h2 {
   margin-bottom: 40px;
   font-size: 60px;
   font-weight: 600;
-  color: #212121;
 }
 
 .social-media{
@@ -51,7 +53,9 @@ body {
 
 .content-section{
   margin-block: 122px;
-  margin-left: 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .content-section-title{
@@ -61,12 +65,10 @@ body {
 }
 
 .content-div{
-  width: 1110px;
   border: 1px solid #c4c4c4;
   border-radius: 12px;
   padding: 24px;
   gap: 10px;
-  margin-bottom: 80px;
 }
 
 .content-div-img{
@@ -92,7 +94,7 @@ body {
 }
 
 .contact-section{
-  padding: 120px 165px;
+  padding-block: 120px;
 }
 
 .contact-div{
@@ -118,9 +120,10 @@ body {
 }
 
 footer{
+  width: 1110px;
+  padding: 32px 165px;
   font-size: 14px;
   font-weight: 400;
-  padding: 32px 165px;
 }
 
 
