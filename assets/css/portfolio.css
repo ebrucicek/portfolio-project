@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+body {
+  width: 1440px;
+}
+
+.button-variant {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-section {
+  padding-block: 120px;
+  padding-left: 155px;
+  width: 874px;
+}
+
+.hero-section h4 {
+  margin-bottom: 12px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #212121;
+}
+
+.hero-section h2 {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #212121;
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 208px;
+}
+
+.social-media a{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-section{
+  margin-block: 122px;
+  margin-left: 165px;
+}
+
+.content-section-title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.content-div{
+  width: 1110px;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  padding: 24px;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.content-div-img{
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.content-div h4{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.content-div p{
+  margin-bottom: 64px;
+}
+
+.content-div a{
+  text-decoration: none;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact-section{
+  padding: 120px 165px;
+}
+
+.contact-div{
+  width: 1110px;
+}
+
+.contact-div h6{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.contact-div h3{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 83px;
+  width: 569px;
+}
+
+.contact-div a{
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+footer{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 32px 165px;
+}
+
+
